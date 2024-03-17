@@ -22,3 +22,12 @@ docker-compose up --build
 ```bash
 docker-compose down
 ```
+- テスト単体の実施方法
+```bash
+cd <git cloneしたディレクトリ>/java-fizzbuzz
+mvn clean test
+```
+
+# Note
+docker-composeを起動した際、ビルド及びテストが成功した場合、
+アプリケーションが実行されます。
