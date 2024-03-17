@@ -8,7 +8,7 @@ Java11を用いてfizzbuzz問題を実行
 # Features
 - JUnit5によるテストコードの作成
 - Docker、docker-composeによる環境構築
-- GitHub Actionによる自動デプロイ
+- GitHub Actionによる自動テスト
 
 # Usage
 - Docker Desktopを事前に起動してください。
