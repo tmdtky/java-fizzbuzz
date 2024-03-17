@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  fizzbuzz-app:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    command: java -jar /usr/app/fizzbuzz-app.jar
