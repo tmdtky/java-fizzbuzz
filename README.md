@@ -15,7 +15,7 @@ Java11を用いてfizzbuzz問題を実行
 - 起動方法
 ```bash
 git clone https://github.com/tmdtky/java-fizzbuzz.git
-cd <git cloneしたディレクトリ>/java-fizzbuzz
+cd <git cloneしたディレクトリ>
 docker-compose up --build
 ```
 - 起動後のdockerプロセス削除方法
@@ -24,7 +24,7 @@ docker-compose down
 ```
 - テスト単体の実施方法
 ```bash
-cd <git cloneしたディレクトリ>/java-fizzbuzz
+cd <git cloneしたディレクトリ>
 mvn clean test
 ```
 
